@@ -1,0 +1,61 @@
+.header
+{
+	height: 15vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(Images/background_image.jpg);
+    background-position: top;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+	padding-top: 5vh;
+}
+h1
+{
+	color: white;
+}
+.content
+{
+	height: 420px;
+	background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(Images/background_image.jpg);
+    background-position: center;
+    background-size: cover;
+	color: white;
+}
+.content td{
+	color: white;
+}
+.footer
+{
+	height: 70px;
+	color: #777;
+	background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(Images/background_image.jpg);
+    background-position: bottom;
+    background-size: cover;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 5px;
+
+}
+input[type=text]
+{
+	width: 300px;
+	height: 30px;
+	border-radius: 10px;
+	padding-left: 3vh;
+}
+textarea
+{
+	height: 100px;
+	width: 300px;
+	border-radius: 10px;
+	padding-left: 3vh;
+}
+input[type=submit]
+{
+	height: 40px;
+	width: 100px;
+	border-radius: 15px;
+	background-color: green;
+	color:white;
+}
